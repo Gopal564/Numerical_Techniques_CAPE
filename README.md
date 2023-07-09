@@ -35,6 +35,11 @@ The system of equations was solved, and the following concentrations (c) were ob
 - c3 = 25.05 moles/m3
 - c4 = 19.0857 moles/m3
 
+The Unknown concentration is solved solving the matricx using two methods - 
+- Gauss Siedel
+- Thomas Algorithm
+So there are two file of code for each method.
+
 ## Usage
 1. Install a C++ compiler.
 2. Compile the code using the command: `g++ main.cpp -o main`.
